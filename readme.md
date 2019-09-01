@@ -2,7 +2,9 @@
 
 <ul>
 <li>Clone project into your directory</li>
-<li>Run 
+<li>
+ Run 
+ 
 ```
  npm install
 
@@ -12,6 +14,7 @@
 Create .env file
 </li>
 <li>Define following env variable in .env file
+ 
 ```
 NODE_ENV
 PORT
@@ -33,7 +36,9 @@ TWILIO_FROM
 ```
 </li>
 
-<li>Finally run 
+<li>
+ Finally run 
+ 
 ```
 npm run dev
 ```
