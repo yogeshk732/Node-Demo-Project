@@ -40,7 +40,7 @@ TWILIO_FROM
  Finally run 
  
 ```
-npm run dev
+npm start
 ```
 </li>
 
