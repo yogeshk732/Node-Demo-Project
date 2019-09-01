@@ -4,8 +4,7 @@
   "description": "Mobile Wallet Application to transfer the money in country or in another country",
   "main": "app.js",
   "scripts": {
-    "start": "npm install && pm2 restart 0",
-    "dev": "nodemon app.js --exec babel-node",
+    "start": "nodemon app.js --exec babel-node",
     "build": "babel src -d dist",
     "postinstall": "npm run build"
   },
