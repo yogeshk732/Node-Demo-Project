@@ -1,0 +1,43 @@
+<tr>
+   <td class="content-wrap" style="padding: 20px;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+         <tr>
+            <td class="content-block" style="padding: 0 0 20px;">
+               Hello {{receiver_name}},
+            </td>
+         </tr>
+         <tr>
+            <td class="content-block" style="padding: 0 0 20px;">
+               A request was made to change your {{email}} email address. Please click on below link to verify your
+               email address.
+            </td>
+         </tr>
+         <tr>
+            <td class="content-block" style="padding: 0 0 20px;">
+               <a href="{{verification_link}}" class="btn-primary" style="color: #348eda;text-decoration: underline;text-decoration: none;
+        color: #FFF;
+        background-color: #ffda1a;
+        border: solid :#ffda1a;
+        border-width: 10px 20px;
+        line-height: 2em;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 10px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;        
+        text-transform: capitalize;">Verify</a>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="content-block" style="padding: 0 0 20px;">
+               If the above link is not clickable, try copying and pasting below url into the address bar of your web
+               browser.
+            </td>
+         </tr>
+         <tr>
+            <td class="content-block" style="padding: 0 0 20px;">
+               <a href="{{verification_link}}" style="word-break: break-all;color: #348eda;text-decoration: underline;">{{verification_link}}</a>
+            </td>
+         </tr>

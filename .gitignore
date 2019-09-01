@@ -1,0 +1,7 @@
+node_modules/
+meta.txt
+.env
+uploads/
+.babelrc
+env.txt
+
